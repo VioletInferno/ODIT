@@ -10,9 +10,14 @@ Prerequisites:
 -> both of these can be installed easily on Windows 10 by using [Anaconda](https://www.anaconda.com/)  
 
 ```sh
+# first run
 git clone https://github.com/ChicoState/ODIT.git
 cd ODIT
-python manage.py runserver
+python3 manage.py makemigrations
+python3 manage.py migrate
+
+# run the server. Defaults to localhost:8000
+python3 manage.py runserver
 ```
 
 ### Contributing Developers
