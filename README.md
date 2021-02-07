@@ -6,8 +6,7 @@ The purpose of this project is to provide better accessibility to users for find
 Prerequisites:
  * Django 2.2.5
  * Python 3.8
-
--> both of these can be installed easily on Windows 10 by using [Anaconda](https://www.anaconda.com/)  
+ * git
 
 ```sh
 # first run
